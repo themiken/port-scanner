@@ -59,7 +59,7 @@ def main():
     print("# -------- PORT SCANNER ---------- #")
     print(GREEN + "# -------- AUTOR:" + WHITE + " Mike16" + GREEN + " ----------#")
     print(GREEN + "####################################")
-    print(RED + "[*] Ingrese la web a escanear")
+    print(RED + "[*] Enter the website")
     usrWeb = raw_input("--> " + WHITE)
     scanPorts(usrWeb, ports)
 
